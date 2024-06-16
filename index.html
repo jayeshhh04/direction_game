@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direction Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Direction Game</h1>
+        <div id="image-container">
+            <img id="current-image" src="" alt="Image">
+        </div>
+        <div class="buttons">
+            <button onclick="chooseDirection('up')">Up</button>
+            <button onclick="chooseDirection('down')">Down</button>
+            <button onclick="chooseDirection('left')">Left</button>
+            <button onclick="chooseDirection('right')">Right</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
