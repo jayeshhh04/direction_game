@@ -1,11 +1,11 @@
 let currentImageIndex = 0;
 const directions = ['up', 'down', 'left', 'right'];
 const images = [
-    'image/jaguar.jpg',
-    'image/nike travis scott.jpg',
-    'image/porsche.jpg',
-    'image/RR.jpg',
-    'image/starbucks.jpg'
+    'jaguar.jpg',
+    'nike travis scott.jpg',
+    'porsche.jpg',
+    'RR.jpg',
+    'starbucks.jpg'
 ];
 
 // Shuffle the images array
